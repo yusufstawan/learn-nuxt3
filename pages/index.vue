@@ -1,4 +1,7 @@
 <script setup>
+const response = await $fetch("/api/hello");
+console.log(response);
+
 // composables
 const { sayHello } = useUtils();
 sayHello();
@@ -7,9 +10,9 @@ sayHello();
 const { $sayHello } = useNuxtApp();
 $sayHello("Yusuf Setiyawan");
 
-definePageMeta({
-  middleware: "auth",
-});
+// definePageMeta({
+//   middleware: "auth",
+// });
 </script>
 
 <template>
