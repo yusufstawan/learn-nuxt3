@@ -16,6 +16,8 @@
     "tailwindcss": "^3.2.7"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.4.7",
+    "pinia": "^2.0.33",
     "sass": "^1.60.0"
   }
 }
