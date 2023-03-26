@@ -1,6 +1,11 @@
 <script setup>
+// composables
 const { sayHello } = useUtils();
 sayHello();
+
+// plugins
+const { $sayHello } = useNuxtApp();
+$sayHello("Yusuf Setiyawan");
 </script>
 
 <template>
