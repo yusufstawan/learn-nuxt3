@@ -6,6 +6,10 @@ sayHello();
 // plugins
 const { $sayHello } = useNuxtApp();
 $sayHello("Yusuf Setiyawan");
+
+definePageMeta({
+  middleware: "auth",
+});
 </script>
 
 <template>
