@@ -1,7 +1,3 @@
 <template>
-  <div>
-    <Header />
-    <Alert />
-    <ProfileHeader />
-  </div>
+  <div class="Main">Main Page</div>
 </template>
