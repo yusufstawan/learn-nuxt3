@@ -7,6 +7,7 @@
             <NuxtLink to="/">Home</NuxtLink>
             <NuxtLink to="/events" class="ml-4">Events</NuxtLink>
             <NuxtLink to="/custom" class="ml-4">Custom</NuxtLink>
+            <NuxtLink to="/test" class="ml-4">test content</NuxtLink>
           </li>
         </ul>
       </header>
